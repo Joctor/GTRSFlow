@@ -1,3 +1,17 @@
+# GTRFlow
+![](./assets/GTRSFlow.png)
+
+## Training and Inference
+```bash
+# covert navtrain_16384.pkl to navtrain_16384x8.npz with 8 metrics
+bash scripts/training/run_flow_training.sh
+# change vocab_path to traj_final/8192_processed.npy
+bash scripts/evaluation/run_flow_pdm_score_evaluation.sh 
+```
+
+## Checkpoint
+https://huggingface.co/Joctor/GTRSFlow
+
 # GTRS: Generalized Trajectory Scoring for End-to-end Multi-modal Planning
 
 ![](./assets/gtrs.png)
