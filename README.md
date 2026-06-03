@@ -1,4 +1,4 @@
-# GTRFlow
+# GTRSFlow
 ![](./assets/GTRSFlow.png)
 
 ## Training and Inference
